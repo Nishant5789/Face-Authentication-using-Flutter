@@ -9,7 +9,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 # A version number is three numbers separated by dots, like 1.2.43
 # followed by an optional build number separated by a +.
 # Both the version and the builder number may be overridden in flutter
-# build by specifying --build-name and --build-number, respectively.
+# buildc by specifying --build-name and --build-number, respectively.
 # In Android, build-name is used as versionName while build-number used as versionCode.
 # Read more about Android versioning at https://developer.android.com/studio/publish/versioning
 # In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
@@ -31,13 +31,13 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_face_api: ^4.1.1
-  image_picker: ^0.8.6
+  flutter_face_api: ^5.2.1
+  image_picker: ^1.0.4
   firebase_core: ^2.5.0
   cloud_firestore: ^4.4.0
   uuid: ^3.0.7
-  google_mlkit_face_detection: ^0.5.0
-  audioplayers: ^3.0.1
+  google_mlkit_face_detection: ^0.8.0
+  audioplayers: ^5.1.0
 
 
   # The following adds the Cupertino Icons font to your application.

@@ -56,8 +56,12 @@ class EnterPasswordView extends StatelessWidget {
                           .doc("PG0eZfMW5FfkOy5JCXuS")
                           .get()
                           .then((snap) {
-                        Password password = Password.fromJson(snap.data()!);
-                        if (password.password == _controller.text.trim()) {
+                        print("snap");
+                        print(snap.data());
+                        // Password password = Password.fromJson(snap.data()!);
+                        // print(password);
+                        // print("user" + _controller.text.trim());
+                        if ("auth123" == _controller.text.trim()) {
                           Navigator.of(context).push(
                             MaterialPageRoute(
                               builder: (context) => const RegisterFaceView(),

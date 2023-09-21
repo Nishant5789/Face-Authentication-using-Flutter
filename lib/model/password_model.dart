@@ -1,6 +1,6 @@
 class Password {
-  final String id;
-  final String password;
+  final String? id;
+  final String? password;
 
   Password({
     required this.id,
